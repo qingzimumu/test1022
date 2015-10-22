@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
 	}
 	  private void setData() {
 	        // TODO Auto-generated method stub
-	        final String sText = "�����Զ����ǩ��<br><h1><mxgsa>�����Զ����ǩ</mxgsa></h1>";
+	        final String sText = "���ss��Զ���ds�ǩ��<br><h1><mxgsa>�����Զ����ǩ</mxgsa></h1>";
 	        textViewNew.setText(Html.fromHtml(message, null, new MxgsaTagHandler(this)));
 	        textViewNew.setClickable(true);
 	        textViewNew.setMovementMethod(LinkMovementMethod.getInstance());
