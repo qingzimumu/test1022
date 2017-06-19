@@ -1,4 +1,4 @@
-package me.xiaoqing.com.ex_1019_01_html;
+﻿package me.xiaoqing.com.ex_1019_01_html;
 
 import java.util.regex.Pattern;
 
@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
+	SpannableString value1;
 	SpannableString value;
 	private static final Pattern EMOTION_URLMethod = Pattern
 			.compile("<F>.+?</F>");
